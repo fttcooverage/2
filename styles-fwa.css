@@ -1,0 +1,16 @@
+#Sfondo_sopra {
+    text-align: center;
+    background-color: #3CF33C;
+}
+body {
+    background-color: #3CF33C;
+}
+#sitebody {
+    text-align: center;
+    background-color:#FFFFFF;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+.flexy {max-width: 80%};
