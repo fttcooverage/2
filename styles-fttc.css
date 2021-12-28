@@ -22,6 +22,8 @@ body {
     margin-right: 10%;
     margin-left: 8%;
     background-color: #AAAAAA;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #AAAAAA;
 }
 #Risultato-velocità {
     float: left;
@@ -48,6 +50,20 @@ body {
     text-align: center;
     margin-right: 10%;
 }
+#pages {
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#Home {
+    background-color: #008200;
+    width: 8%;
+    text-align: center;
+    border-radius: 5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow: 0 0 7px #006200;
+}
 .green {
     color: #008900;
     font-size: 25px;
@@ -55,4 +71,17 @@ body {
 .maxi {
     font-size: 20px;
 }
-.flexy {max-width: 80%;};
+.flexy {max-width: 80%;}
+#Pulsante-Calcolo {
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border:white 3px solid;
+    color:white;
+    background-color: transparent;
+    border-radius: 8px;
+    text-shadow: 0 0 2px white;
+    padding: 5px 3px;
+    box-shadow: 0 0 1px white;
+}
