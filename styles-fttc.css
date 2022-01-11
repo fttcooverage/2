@@ -85,3 +85,44 @@ body {
     padding: 5px 3px;
     box-shadow: 0 0 1px white;
 }
+#Tratta-Rame {
+    display: none;
+    box-shadow: 0 0 8px gray;
+}
+#Articolo-Derivazioni {
+    color: white;
+    background-image: url(Img-Articolo-Derivazioni.png);
+    background-size: cover;
+    padding: 16px 0 0;
+    max-width: 28%;
+}
+.Titolo-Articolo {
+    position: relative;
+}
+.Titolo-Articolo::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(20, 255, 30);
+}
+#Contenuto-Articolo-Derivazioni {
+    padding: 12px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(10, 10, 10, 0.3), rgba(0, 0, 0, 0.5));
+}
+.Bottone-Articolo {
+    background-color: rgb(20, 255, 30);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 3px;
+    color: black;
+}
+#Articoli-Consigliati {
+    display: none;
+}
+#Derivate {
+    display: none;
+    box-shadow: 0 0 8px gray;
+}
