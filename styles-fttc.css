@@ -4,6 +4,11 @@ body {
 #Sfondo_sopra {
     text-align: center;
     background-color: #3CF33C;
+    position: fixed;
+    max-height: 30%;
+    width: 100%;
+    text-align: left;
+    top: 0
 }
 #sitebody {
     text-align: center;
@@ -52,8 +57,11 @@ body {
 }
 #pages {
     color: white;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    float: right;
+    text-align: left;
+    width: 70%;
 }
 #Home {
     background-color: #008200;
@@ -125,4 +133,16 @@ body {
 #Derivate {
     display: none;
     box-shadow: 0 0 8px gray;
+}
+#Immagine-sopra {
+    width: 20%;
+    height: 10%;
+    float: left;
+    background-image: url(Banner-sopra.png);
+    background-size: cover;
+    position: absolute;
+}
+.upimage {
+    max-width: 20%;
+    min-height: 5%;
 }
